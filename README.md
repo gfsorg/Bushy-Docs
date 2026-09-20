@@ -2,6 +2,8 @@
 
 Bushy-Docs is a lightweight, browser-based writing workspace built around **Bushy Writer v0.2**. It provides a distraction-friendly editor for drafting documents, saving them locally, adding images, and exporting finished work without requiring a backend.
 
+**Website:** <https://bushydocs.netlify.app>
+
 ## Features
 
 - ✍️ Rich-text editing with **bold, italic, underline, strikethrough, headings, lists, and blockquotes**
@@ -16,8 +18,6 @@ Bushy-Docs is a lightweight, browser-based writing workspace built around **Bush
 - 📤 Export to Markdown or JSON backup
 
 ## Getting started
-
-No build step is required.
 
 1. Clone the repository:
 
@@ -44,7 +44,7 @@ Documents are stored in the browser's `localStorage`. Each saved document contai
 
 ### Encryption
 
-The editor can optionally encrypt saved document content with AES using CryptoJS. Encryption is performed in the browser before the document is written to `localStorage).
+The editor can optionally encrypt saved document content with AES using CryptoJS. Encryption is performed in the browser before the document is written to `localStorage`.
 
 This is intended as a convenient local privacy feature, not a substitute for a professionally audited password-management or secure-storage system. Keep your encryption password safe: the application does not provide a password-recovery mechanism.
 
