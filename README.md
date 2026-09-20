@@ -17,25 +17,6 @@ Bushy-Docs is a lightweight, browser-based writing workspace built around **Bush
 - 📋 Built-in templates for blog posts and meeting notes
 - 📤 Export to Markdown or JSON backup
 
-## Getting started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/gfsorg/Bushy-Docs.git
-   cd Bushy-Docs
-   ```
-
-2. Open `index.html` in a modern web browser.
-
-For a local development server, you can also use any static HTTP server, for example:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit <http://localhost:8000>.
-
 ## How it works
 
 Bushy Writer is currently a self-contained front-end application. The main implementation lives in [`index.html`](./index.html), which contains the UI, styling, and JavaScript application logic.
