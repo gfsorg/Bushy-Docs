@@ -1,6 +1,6 @@
 # Bushy-Docs
 
-Bushy-Docs is a lightweight, browser-based writing workspace built around **Bushy Writer v0.2**. It provides a distraction-friendly editor for drafting documents, saving them locally, adding images, and exporting finished work without requiring a backend.
+Bushy-Docs is a lightweight, browser-based writing workspace built around **Bushy Writer v0.1**. It provides a distraction-friendly editor for drafting documents, saving them locally, adding images, and exporting finished work without requiring a backend.
 
 **Website:** <https://bushydocs.netlify.app>
 
@@ -55,10 +55,6 @@ Use the **Export** menu in Bushy Writer to download the current document as:
 
 - **Markdown (.md)** — a simple text/Markdown export of the editor contents
 - **JSON (.json)** — a backup containing the document title and editor HTML
-
-## Status
-
-Bushy Writer is currently at **v0.2**. The project is intentionally small and self-contained, making it easy to run, inspect, and extend.
 
 ## Contributing
 
